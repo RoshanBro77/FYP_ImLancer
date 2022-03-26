@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323008188620",
+    "project_id": "imlancer-7e368",
+    "storage_bucket": "imlancer-7e368.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323008188620:android:afc04ea1af695873f17269",
+        "android_client_info": {
+          "package_name": "com.example.imlancerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323008188620-gdhncqi47l9f39igofume5k9lj06thq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF45lBlw6ZUGHepf1SF5Yb1teWfwiB36U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323008188620-gdhncqi47l9f39igofume5k9lj06thq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
