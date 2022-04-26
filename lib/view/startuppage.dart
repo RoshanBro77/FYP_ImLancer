@@ -34,9 +34,9 @@ class StartUpScreen extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      Text(
-                        "Logo",
-                        style: textStyle.copyWith(fontSize: 32),
+                      Image.asset(
+                        'assets/seo.png',
+                        height: 50,
                       ),
                       const Spacer(),
                       Column(

@@ -65,9 +65,9 @@ class _SignUpPageState extends State<SignUpPage> {
                         children: [
                           Row(
                             children: [
-                              Text(
-                                "Logo",
-                                style: textStyle.copyWith(fontSize: 32),
+                              Image.asset(
+                                'assets/seo.png',
+                                height: 50,
                               ),
                               const Spacer(),
                               Column(

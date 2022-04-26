@@ -14,7 +14,7 @@ import '../models/project_model.dart';
 import '../models/skills_model.dart';
 
 class RemoteServices {
-  static String initialUrl = "https://192.168.1.80/ImLancer";
+  static String initialUrl = "https://192.168.1.69/ImLancer";
 
   static Future<String> login(String email_id, String password) async {
     String notifId = await FirebaseMessaging.instance.getToken() ?? "";
