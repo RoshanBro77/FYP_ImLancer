@@ -121,6 +121,11 @@ class _SignUpPageState extends State<SignUpPage> {
                             keyboardType: TextInputType.emailAddress,
                             textInputAction: TextInputAction.done,
                             validator: (value) {
+                              if (emailController.text == "") {
+                                return "Email is required";
+                              } else if (!value!.contains("@gmail.com")) {
+                                return "Enter valid Email";
+                              }
                               return null;
                             },
                           ),
@@ -140,8 +145,8 @@ class _SignUpPageState extends State<SignUpPage> {
                             ),
                             textInputAction: TextInputAction.done,
                             validator: (value) {
-                              if (value!.length < 3) {
-                                return "Too short username";
+                              if (usernameController.text == "") {
+                                return "Username is required";
                               }
                               return null;
                             },
@@ -177,7 +182,9 @@ class _SignUpPageState extends State<SignUpPage> {
                             ),
                             textInputAction: TextInputAction.done,
                             validator: (value) {
-                              if (value!.length < 8) {
+                              if (passwordController.text == "") {
+                                return "Password is required";
+                              } else if (value!.length < 8) {
                                 return "Too short password";
                               }
                               return null;

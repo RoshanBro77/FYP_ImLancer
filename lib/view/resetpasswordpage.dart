@@ -234,6 +234,11 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     child: Text(controller.changePasswordLoading
                         ? "Loading..."
                         : "Change Password"),
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange.shade800),
+                        shape:
+                            MaterialStateProperty.all(const StadiumBorder())),
                   ),
                 ],
               ),

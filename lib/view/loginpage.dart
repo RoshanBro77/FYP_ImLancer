@@ -184,11 +184,6 @@ class _LogInPageState extends State<LogInPage> {
                                       context,
                                     );
                                   }
-                                  // Navigator.pushNamedAndRemoveUntil(
-                                  //   context,
-                                  //   '/homepage',
-                                  //   (route) => false,
-                                  // );
                                 },
                                 child: Container(
                                   decoration: BoxDecoration(

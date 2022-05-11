@@ -62,9 +62,6 @@ class SearchPage extends StatelessWidget {
                                         builder: (context) =>
                                             JobDetailsPage(job: project)));
                               },
-                              leading: CircleAvatar(
-                                radius: 25,
-                              ),
                               isThreeLine: true,
                               title: Text(
                                 project.projectName,

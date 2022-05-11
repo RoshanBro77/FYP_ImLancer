@@ -10,7 +10,7 @@ import 'package:imlancerapp/view/bidpage.dart';
 import 'package:imlancerapp/view/createdprojectandbids.dart';
 import 'package:imlancerapp/view/editprofile.dart';
 import 'package:imlancerapp/view/payment.dart';
-import 'package:imlancerapp/view/splash.dart';
+import 'package:imlancerapp/view/splashscreen.dart';
 import 'package:khalti_flutter/khalti_flutter.dart';
 
 import 'noficationpage.dart';

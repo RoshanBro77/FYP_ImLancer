@@ -88,13 +88,20 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Center(
+              child: Image.asset(
+            "assets/seo.png",
+            height: 80,
+            width: 80,
+          )),
           Text(
             "ImLancer App",
-            style: TextStyle(fontSize: 35),
+            style: TextStyle(fontSize: 18, color: Colors.orange),
           ),
-          CircularProgressIndicator(),
         ],
       ),
     );

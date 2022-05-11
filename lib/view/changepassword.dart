@@ -147,6 +147,11 @@ class _ChangePasswordState extends State<ChangePassword> {
                       } else {}
                     },
                     child: const Text("Change Password"),
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange.shade800),
+                        shape:
+                            MaterialStateProperty.all(const StadiumBorder())),
                   ),
                 ],
               ),
